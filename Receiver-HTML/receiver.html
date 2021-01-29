@@ -1,0 +1,79 @@
+<HTML>
+  <HEAD>
+    <TITLE>WBDC0</TITLE>
+  </HEAD>
+  <BODY>
+    <H2 align="center">GAVRT DSS-28</H2>
+    <H1 align="center">Wide Band Down Converter 0</H1>
+    <table>
+      <TR>
+        <TD align="left">
+          <img height="150" src="frontend.jpg"></img>
+        </TD>
+        <TD>
+          <H3 align="center">Feed and RF Electronics</H3>
+          <P>The cryostat (cylinder with a white cover) contains the high
+            frequency feed (HFF) and low noise
+            amplifiers which
+            increase the radio frequency (RF) signals of the vertical and
+            horizontal radio waves. The HFF amplifiers work from 2 to 14 GHz.
+            A plate of absorbing material can be rotated in front of the feed
+            to reduce the incoming radiation by 90%. It also adds a known
+            signal, which is 90% of the thermal (blackbody) radiation of the
+            plate, to
+            calibrate the signal.
+          </P>
+          <p>
+            The rest of the RF electronics is in the receiver box mounted
+            on the surface of the antenna.  There is another almost identical
+            set of electronics for a low frequency feed (LFF).
+        </TD>
+        <TD>
+          <H3 align="center">Down Converters</H3>
+          <P>
+            There are four downconverters, each of which converts the two
+            polarizations to frequencies at which the signals can be digitized
+            and detected. Each downconverter can be tuned for a different RF
+            band which is 2000 MHz wide.
+          </P>
+          <P>
+            Four plates with electronics like the one shown here are in the
+            receiver box along with the RF electronics.
+          </P>
+          <P>
+            The diagram below is for the electronics of one of the two polarizations
+            of one down-converter.  The image shows both channels.
+          </P>
+        </TD>
+        <TD align="center">
+          <img height="200" src="downconv-3-crop.jpg"></img>
+        </TD>
+        <TD>
+          <H3 align="center">Outputs</H3>
+          <P>
+            Each of the two channels of a downconverter has two outputs, one
+            for -1000 to 0 MHz (called the lower sideband -- LSB) and the other
+            for 0 to 1000 MHz (called the upper sideband -- USB) of the 2000 MHz
+            RF band which is down-converted.
+            Each of these sidebands has four outputs:<BR/>
+            <B>signal voltage</B> of the 1000 MHz wide band, or some part of
+            that passed by an  optional filter,<BR/>
+            <B>signal voltage</B> reduced by 50%,<BR/>
+            <B>rectified voltage</B>, which is the square of the voltage
+            (negative voltages removed) and averaged,<BR/>
+            <B>pulses</B> from a voltage to frequency (VFC) converter.
+          </P>
+        </TD>
+      </TR>
+      <TR>
+        <TD colspan="2" align="center">
+          <img height="300" src="RF-schematic.png"</img>
+        </TD>
+        <TD colspan="3" align="center">
+          <img height="200" src="DC-schem.png"></img>
+        </TD>
+      </TR>
+    </table>
+    <BR/>
+  </BODY>
+</HTML>
